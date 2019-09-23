@@ -3,11 +3,11 @@ def prime?(num)
   if num < 2
     false
   else
-    range.each do |number|
-      if num % number == 0
-        false
-      end
-    end
-    true
+   range.each do |number|
+     if num % number == 0
+      return false
+     end  
+   end 
+   true 
   end
 end
